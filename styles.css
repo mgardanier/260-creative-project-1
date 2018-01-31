@@ -184,6 +184,8 @@ article {
   border-radius: 10px;
   background-color: #767A7F;
   padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .form input[type=text] {
@@ -195,6 +197,10 @@ article {
   border-radius: 5px;
   border-style: solid;
   border-color: #50647F;
+}
+
+.regDirect {
+  margin-left: 105px;
 }
 
 .form input[type=submit] {
@@ -214,4 +220,40 @@ article {
   border-style: solid;
   border-color: black;
   background-color: darkgrey;
+}
+
+/* Scoreboard */
+
+.gameParent {
+  display: grid;
+  grid-gap: 50px;
+  background-color: #BDC4CC;
+  border-radius: 25px;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  padding-left: 150px;
+  margin-right: 100px;
+  margin-left: 100px;
+  /*grid-template-areas:
+    'header header'
+    'main main'
+    'footer footer'*/
+}
+
+.gameChild {
+  text-align: center;
+  background-color: #767A7F;
+  border-radius: 15px;
+  max-width: 300px;
+  padding: 20px;
+  /*grid-area: main;*/
+}
+
+.gameHeader {
+  /*grid-area: header;*/
+}
+
+.gameFooter {
+  /*grid-area: footer;*/
+  text-align: center;
 }
